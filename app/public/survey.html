@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Friend Finder - Survey</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+</head>
+
+
+<body id="survey">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 id="surveyHeader"> Survey Questions </h1>
+                <hr>
+                <h2 id="aboutHeader">About You:</h2>
+                <h5> Name (Required)</h5>
+                <input type="text" id="name" class="form-control" required>
+                <h5> Link to Photo Image (Required)</h5>
+                <input type="text" id="photo" class="form-control" required>
+                <hr>
+                <h3> Question 1 </h3>
+                <h4>You love surprises.</h4>
+                <select class="chosen-select" id="question1">
+                    <option value>""</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <br>
+                <h3> Question 2 </h3>
+                <h4>You're constantly looking in a mirror whenever you get the chance.</h4>
+                <select class="chosen-select" id="question2">
+                    <option value>""</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <br>
+                <h3> Question 3 </h3>
+                <h4>You enjoy going on long trips and advnetures.</h4>
+                <select class="chosen-select" id="question3">
+                    <option value>""</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <br>
+                <h3> Question 4 </h3>
+                <h4>You like to stay home as much as possible.</h4>
+                <select class="chosen-select" id="question4">
+                    <option value>""</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <br>
+                <h3> Question 5 </h3>
+                <h4>You're always thinking outside of the box.</h4>
+                <select class="chosen-select" id="question5">
+                    <option value>""</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <br>
+                <h3> Question 6 </h3>
+                <h4>You'd rather be outside than inside.</h4>
+                <select class="chosen-select" id="question6">
+                    <option value>""</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <br>
+                <h3> Question 7 </h3>
+                <h4>You're always looking towards the future and making plans.</h4>
+                <select class="chosen-select" id="question7">
+                    <option value>""</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <br>
+                <h3> Question 8 </h3>
+                <h4>You work to live instead of live to work.</h4>
+                <select class="chosen-select" id="question8">
+                    <option value>""</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <br>
+                <h3> Question 9 </h3>
+                <h4>You love animals and see yourself always having some sort of pet.</h4>
+                <select class="chosen-select" id="question9">
+                    <option value>""</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <br>
+                <h3> Question 10 </h3>
+                <h4>You're messy but you don't mind it at all.</h4>
+                <select class="chosen-select" id="question10">
+                    <option value>""</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <br>
+
+                <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+                    Submit</button>
+            </div>
+        </div>
+    </div>
+    <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title"><strong>Your Match!</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name"></h2>
+                    <img id="match-img" src="" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <style>
+        #survey {
+            background-color: blue;
+        }
+
+        #surveyHeader {
+            color: white;
+            font-style: bold;
+            text-align: center;
+        }
+
+        #aboutHeader {
+            color: white;
+            font-style: bold;
+        }
+
+        h5 {
+            color: white;
+        }
+
+        h3 {
+            color: white;
+            font-style: bold;
+        }
+
+        h4 {
+            color: white;
+        }
+    </style>
+
+    <script>
+        $("#submit").on("click", function (event) {
+            event.preventDefault();
+            function validateForm() {
+                var isValid = true;
+                $(".form-control").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                $(".chosen-select").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                return isValid;
+            }
+            if (validateForm()) {
+                var userData = {
+                    name: $("#name").val(),
+                    photo: $("#photo").val(),
+                    scores: [
+                        parseInt($("#question1").val()),
+                        parseInt($("#question2").val()),
+                        parseInt($("#question3").val()),
+                        parseInt($("#question4").val()),
+                        parseInt($("#question5").val()),
+                        parseInt($("#question6").val()),
+                        parseInt($("#question7").val()),
+                        parseInt($("#question8").val()),
+                        parseInt($("#question9").val()),
+                        parseInt($("#question10").val())
+                    ]
+                };
+                $.post("/api/friends", userData, function (data) {
+                    $("#match-name").text(data.name);
+                    $("#match-img").attr("src", data.photo);
+                    $("#results-modal").modal("toggle");
+                }, 'json');
+            } else {
+                alert("Make sure all forms are filled out before submitting!");
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>
